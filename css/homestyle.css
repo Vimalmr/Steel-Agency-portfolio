@@ -1,0 +1,128 @@
+/* Style buttons */
+
+.intro{
+    background-image: url("../imgs/home-img.jpg");
+    --fill-layer-image-opacity: 1;
+    --fill-layer-background-media-position: fixed;
+    --fill-layer-background-media-pointer-events: none;
+    background-size: cover;
+    width: 100%;
+    padding-top: 17.5%;
+    padding-bottom: 17.5%;
+}
+
+.tag {
+    opacity: 0;
+    transform: translate(0, 10vh);
+    transition: all 0.5s;
+  }
+  
+  .tag.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+
+.intro a{
+    background-color: white; /* Blue background */
+    border: none; /* Remove borders */
+    color: black; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    border-radius: 0;
+}
+
+/* Darker background on mouse-over */
+.intro a:hover {
+  background-color: rgb(224, 218, 218);
+} 
+
+.weof h3{
+    font-family: serif;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.weof h5{
+    text-align: center  ;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.weof p{
+    text-align: center;
+}
+
+.weof img{
+    margin-bottom: 15px;
+}
+
+.weof a{
+    background-color: rgb(33,37,41); /* Blue background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    font-size: 16px; /* Set a font size */
+    cursor: pointer; /* Mouse pointer on hover */
+    border-radius: 0;
+    display: block;
+    margin: 0%;
+    margin-bottom: 15px;
+}
+
+/* Darker background on mouse-over */
+.weof a:hover {
+  background-color: rgb(72, 78, 83);
+} 
+
+.brands{
+    background-color: rgb(237, 237, 237);
+}
+
+.brands h3{
+    font-family: serif;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .image {
+    width: 500xp !important;
+    height: 150px;
+    overflow: hidden;
+  }
+  
+  .image img {
+    width: 100% !important;
+    height: 100%;
+  }
+  
+.brands h4{
+    text-align: center  ;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.footer h3{
+    font-family: serif;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.footer p{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.footer{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
+}
